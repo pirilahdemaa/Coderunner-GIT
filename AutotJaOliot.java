@@ -57,6 +57,14 @@ class Car
 		System.out.println("Model: "+model);
 		System.out.println("Fuel: "+amountOfFuel);
 	}
+	
+	public void refuel(int amount)
+	{
+		System.out.println("Fuel in the tank: "+amountOfFuel);
+		System.out.println("Refuel: "+amount);
+		System.out.println("Fuel in the tank after the refuel: "+(amountOfFuel+amount));
+		
+	}
 		
 		
 }//car
