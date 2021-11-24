@@ -2,7 +2,7 @@
 public class AutotJaOliot {
 
 	public static void main(String[] args) {
-		// Coderunner ja Git-teht‰v‰
+		// Coderunner ja Git-teht√§v√§
 
 	}//main
 
@@ -14,6 +14,19 @@ class Car
 	public String model;
 	public int amountOfFuel;
 	
+	public Car ()
+	{
+		brand ="";
+		model="";
+		amountOfFuel=0;
+	}
+	
+	public Car(String brandName, String modelName, int fuelAmount)
+	{
+		brand = brandName;
+		model = modelName;
+		amountOfFuel = fuelAmount;
+	}
 	
 	public void brake()
 	{
