@@ -14,6 +14,14 @@ class Car
 	public String model;
 	public int amountOfFuel;
 	
+	public String getModel() {
+		return model;
+	}
+	
+	public void setModel(String model) {
+		this.model = model;
+	}
+	
 	public Car ()
 	{
 		brand ="";
@@ -43,7 +51,7 @@ class Car
 		}
 	}
 	
-	public void printData()
+	private void printData()
 	{
 		System.out.println("Brand: "+brand);
 		System.out.println("Model: "+model);
