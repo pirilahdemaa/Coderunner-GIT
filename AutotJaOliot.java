@@ -2,7 +2,7 @@
 public class AutotJaOliot {
 
 	public static void main(String[] args) {
-		// Coderunner ja Git-tehtävä
+		// Coderunner 1-4 ja Git-tehtävä
 
 	}//main
 
